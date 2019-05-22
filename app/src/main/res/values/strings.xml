@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Aut Prime Put Together</string>
+    <string name="welcome_message_textView">Welcome to AutPrime</string>
+    <string name="username_placeholder_textView">username will go here</string>
+    <string name="question_textView">What would you like to do now?</string>
+    <string name="courses_button">Courses</string>
+    <string name="grades_button">Grades</string>
+    <string name="maps_button">Maps</string>
+    <string name="notes_button">Notes</string>
+    <string name="email_button">Email</string>
+    <string name="map_key" translatable="false">AIzaSyAMa_rT09ZK1d6scS-sJo0sdHtKvx3tlXA</string>
+    <string name="notes_textView">Welcome to Notes</string>
+    <string name="log_out_button">Log out</string>
+    <string name="notes_hint">input notes here</string>
+    <string name="calendar_button_text">Calendar</string>
+</resources>
