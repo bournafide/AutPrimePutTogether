@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -17,23 +16,12 @@
         android:text="@string/welcome_message_textView"
         android:visibility="visible"/>
 
-    <!-- display name of user-->
-    <TextView
-        android:id="@+id/placeHolderUsername"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/welcomeMessage"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:text="@string/username_placeholder_textView"
-        android:visibility="visible"/>
-
     <!-- display a question for user-->
     <TextView
         android:id="@+id/question"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/placeHolderUsername"
+        android:layout_below="@+id/welcomeMessage"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:text="@string/question_textView"
@@ -77,39 +65,38 @@
         android:id="@+id/noteBtnId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginEnd="83dp"
-        android:layout_marginTop="202dp"
+        android:layout_alignTop="@+id/emailBtnId"
+        android:layout_centerHorizontal="true"
         android:text="@string/notes_button"
         android:visibility="visible" />
 
+    <!-- display a button to redirect users to their email -->
     <Button
         android:id="@+id/emailBtnId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignTop="@+id/noteBtnId"
-        android:layout_marginStart="84dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/courseBtnId"
+        android:layout_marginTop="173dp"
         android:text="@string/email_button" />
 
+    <!-- display a button to redirect users to their calendar -->
     <Button
         android:id="@+id/calendarId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="188dp"
-        android:layout_toStartOf="@+id/welcomeMessage"
+        android:layout_alignStart="@+id/mapBtnId"
+        android:layout_alignTop="@+id/noteBtnId"
         android:text="@string/calendar_button_text" />
 
-    <!-- <Button
+    <!-- display a button to redirect users to the login page to logout -->
+    <Button
         android:id="@+id/logoutBtnId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_below="@id/noteBtnId"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="185dp"
-        android:text="@string/log_out_button" /> -->
+        android:layout_marginBottom="213dp"
+        android:text="@string/logout_button_text" />
+
 </RelativeLayout>

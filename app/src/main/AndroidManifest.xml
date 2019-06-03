@@ -30,7 +30,8 @@
         <activity android:name=".MapActivity" />
         <activity android:name=".NotepadActivity" />
         <activity android:name=".GradeActivity" />
-        <activity android:name=".CalendarActivity"></activity>
+        <activity android:name=".CalendarActivity" />
+        <activity android:name=".LogoutActivity" />
     </application>
 
 </manifest>

@@ -21,7 +21,7 @@ public class HomepageActivity extends AppCompatActivity {
         noteBtn = findViewById(R.id.noteBtnId);
         emailBtn = findViewById(R.id.emailBtnId);
         calendarBtn = findViewById(R.id.calendarId);
-        /*logoutBtn = findViewById(R.id.logoutBtnId);*/
+        logoutBtn = findViewById(R.id.logoutBtnId);
 
         //redirecting functions for the buttons/features of the app
         courseBtn.setOnClickListener(new View.OnClickListener() {
@@ -33,7 +33,6 @@ public class HomepageActivity extends AppCompatActivity {
                 startActivity(courseIntent);
             }
         });
-
         gradeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -43,7 +42,6 @@ public class HomepageActivity extends AppCompatActivity {
                 startActivity(gradeIntent);
             }
         });
-
         mapBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -53,7 +51,6 @@ public class HomepageActivity extends AppCompatActivity {
                 startActivity(mapIntent);
             }
         });
-
         noteBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -80,14 +77,14 @@ public class HomepageActivity extends AppCompatActivity {
                 startActivity(calendarIntent);
             }
         });
-        /*logoutBtn.setOnClickListener(new View.OnClickListener() {
+        logoutBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 //intent to redirect user to login page when button is clicked
                 Toast.makeText(getApplicationContext(),"Logging Out",Toast.LENGTH_SHORT).show();
-                Intent logoutIntent = new Intent(HomepageActivity.this,MainActivity.class);
+                Intent logoutIntent = new Intent(HomepageActivity.this,LogoutActivity.class);
                 startActivity(logoutIntent);
             }
-        });*/
+        });
     }
 }
