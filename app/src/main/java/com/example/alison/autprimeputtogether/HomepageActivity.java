@@ -86,5 +86,7 @@ public class HomepageActivity extends AppCompatActivity {
                 startActivity(logoutIntent);
             }
         });
+
+
     }
 }

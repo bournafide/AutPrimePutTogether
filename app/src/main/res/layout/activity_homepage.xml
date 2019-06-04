@@ -13,105 +13,104 @@
     <!-- display a button to redirect users to their courses -->
     <Button
         android:id="@+id/courseBtnId"
-        android:layout_width="175dp"
-        android:layout_height="175dp"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
         android:background="@android:color/black"
-        android:textSize="25sp"
-        android:textColor="@android:color/white"
         android:text="@string/courses_button"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
         android:visibility="visible" />
 
     <!-- display a button to redirect users to their grades -->
     <Button
         android:id="@+id/gradeBtnId"
-        android:layout_width="175dp"
-        android:layout_height="175dp"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="425dp"
-        android:textSize="25sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="332dp"
         android:background="@android:color/black"
-        android:textColor="@android:color/white"
         android:text="@string/grades_button"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
         android:visibility="visible" />
 
     <!-- display a button to redirect users to the campuses maps -->
     <Button
         android:id="@+id/mapBtnId"
-        android:layout_width="175dp"
-        android:layout_height="175dp"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="220dp"
-        android:textSize="25sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="180dp"
         android:background="@android:color/darker_gray"
-        android:textColor="@android:color/white"
         android:text="@string/maps_button"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
         android:visibility="visible" />
 
     <!-- display a button to redirect users to the notepad -->
     <Button
         android:id="@+id/noteBtnId"
-        android:layout_width="175dp"
-        android:layout_height="175dp"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="220dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginStop="15dp"
-        android:textSize="25sp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="20dp"
         android:background="@android:color/darker_gray"
-        android:textColor="@android:color/white"
         android:text="@string/notes_button"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
         android:visibility="visible" />
 
     <!-- display a button to redirect users to their email -->
     <Button
         android:id="@+id/emailBtnId"
-        android:layout_width="175dp"
-        android:layout_height="175dp"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:textSize="25sp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="180dp"
         android:background="@android:color/black"
+        android:text="@string/email_button"
         android:textColor="@android:color/white"
-        android:layout_marginStart="220dp"
-        android:layout_marginTop="220dp"
-        android:text="@string/email_button" />
+        android:textSize="20sp" />
 
     <!-- display a button to redirect users to their calendar -->
 
     <!-- display a button to redirect users to the login page to logout -->
     <Button
         android:id="@+id/logoutBtnId"
-        android:layout_width="380dp"
-        android:layout_height="87.5dp"
+        android:layout_width="300dp"
+        android:layout_height="67.5dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="625dp"
-        android:textSize="25sp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="485dp"
         android:background="@android:color/white"
         android:text="@string/logout_button_text"
-        android:textColor="@android:color/black" />
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/calendarId"
-        android:layout_width="175dp"
-        android:layout_height="175dp"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="330dp"
         android:background="@android:color/darker_gray"
+        android:text="@string/calendar_button_text"
         android:textColor="@android:color/white"
-        android:textSize="25sp"
-        android:layout_marginStart="220dp"
-        android:layout_marginTop="425dp"
-        android:text="@string/calendar_button_text" />
+        android:textSize="20sp" />
 
 </RelativeLayout>
