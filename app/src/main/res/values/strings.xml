@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Aut Prime Put Together</string>
+    <string name="app_name">Aut Prime</string>
     <string name="welcome_message_textView">Welcome to AutPrime</string>
     <string name="username_placeholder_textView">username will go here</string>
     <string name="question_textView">What would you like to do now?</string>
